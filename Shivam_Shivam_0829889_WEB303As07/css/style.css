@@ -1,0 +1,33 @@
+#london-wrapper, #windsor-wrapper{
+    display: none;
+    height: 500px;
+}
+
+#photo-viewer {
+    display: block;
+    border: 1px solid #000;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#photo-viewer .photo-box {
+    position: relative;
+    width: 800px;
+    height: 450px;
+    display: block;
+    margin: 0 auto;
+}
+
+#photo-viewer .thumbnail-anchor img {
+    width: 80px;
+    height: 45px;
+    border: 1px solid #000;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#photo-viewer .thumbnail-anchor.active img {
+    border-color: #ff0000;
+}
