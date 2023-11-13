@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+ }
+ 
+ h1 {
+    text-align: center;
+ }
+ 
+ #search-container {
+    margin-bottom: 15px;
+ }
+ 
+ #character-table {
+    width: 100%;
+    border-collapse: collapse;
+ }
+ 
+ #character-table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+ }
+ 
+ #character-table th {
+    background-color: #f2f2f2;
+ }
+ 
+ #filter-buttons {
+    margin-top: 15px;
+ }
+ 
+ #filter-buttons button {
+    margin-right: 10px;
+ }
+ .search-highlight {
+    background-color: darkgreen;
+    color: white;
+ }
