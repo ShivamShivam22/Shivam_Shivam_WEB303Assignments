@@ -1,0 +1,53 @@
+[
+    {
+       "firstName": "Murray ",
+       "lastName": "Abraham",
+       "age": 84,
+       "occupation": "Composer",
+       "status": "Alive"
+    },
+    {
+       "firstName": "Tom",
+       "lastName": "Hulce",
+       "age": 69,
+       "occupation": "Composer",
+       "status": "Alive"
+    },
+    {
+      "firstName": "Simon",
+      "lastName": "Callow",
+      "age": 74,
+      "occupation": "Opera singer",
+      "status": "Alive"
+   },
+   {
+      "firstName": "Elizabeth",
+      "lastName": "Berridge",
+      "age": 61,
+      "occupation": "Mozart's Wife",
+      "status": "Alive"
+   },
+   {
+      "firstName": "Herman",
+      "lastName": "Meckler",
+      "age": 91,
+      "occupation": "Emperor",
+      "status": "Dead"
+   },
+   {
+      "firstName": "Christine",
+      "lastName": "Ebersole",
+      "age": 70,
+      "occupation": "Opera singer",
+      "status": "Alive"
+   },
+   {
+      "firstName": "Roy",
+      "lastName": "Dotrice",
+      "age": 94,
+      "occupation": "Mozart's Father",
+      "status": "Dead"
+   }
+
+ ]
+ 

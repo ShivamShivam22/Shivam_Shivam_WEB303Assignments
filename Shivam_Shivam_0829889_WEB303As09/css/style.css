@@ -1,0 +1,47 @@
+body {
+   font-family: Arial, sans-serif;
+}
+
+#characterTable {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+}
+
+th, td {
+   border: 1px solid #ddd;
+   padding: 8px;
+   text-align: left;
+}
+
+th {
+   background-color: #f2f2f2;
+}
+
+th a {
+   text-decoration: none;
+   color: #333;
+   display: block;
+   position: relative;
+}
+
+th a::after {
+   content: '';
+   display: inline-block;
+   width: 0;
+   height: 0;
+   border-left: 6px solid transparent;
+   border-right: 6px solid transparent;
+   margin-left: 5px;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+th.asc a::after {
+   border-bottom: 6px solid #333;
+}
+
+th.desc a::after {
+   border-top: 6px solid #333;
+}
